@@ -1,0 +1,14 @@
+Package: TeachingMaterials
+Title: Palaeobiology teaching materials created by JN Keating
+Version: 0.0.0.9000
+Author: Joseph N. Keating
+Maintainer: The package maintainer <joe.keating@bristol.ac.uk>
+Description: Palaeobiology teaching materials
+License: CC0-1.0
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
