@@ -1,9 +1,22 @@
 ---
 title: "Diversity and the Fossil Record"
-output:
-  html_document: default
-  pdf_document: default
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{PBDB_tutorial}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
 ---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(TeachingMaterials)
+```
 Written by J. N. Keating, 05/07/24
 
 #### Getting started
