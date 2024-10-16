@@ -3,7 +3,7 @@
 \docType{data}
 \name{sim_occ}
 \alias{sim_occ}
-\title{Simulated occurence dataset}
+\title{Simulated occurrence dataset}
 \format{
 data.frame
 }
@@ -11,7 +11,7 @@ data.frame
 data(sim_occ)
 }
 \description{
-A simulated dataset of fossil occurences analagous to data dowloaded from the PBDB.
+A simulated dataset of fossil occurrences analagous to data downloaded from the PBDB.
 }
 \examples{
 data(sim_occ)

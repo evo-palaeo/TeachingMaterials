@@ -1,25 +1,22 @@
 ---
 title: "Diversity and the Fossil Record"
-output: rmarkdown::html_vignette
-vignette: >
-  %\VignetteIndexEntry{PBDB_tutorial}
-  %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteEncoding{UTF-8}
+output:
+  html_document: default
+  pdf_document: default
 ---
-
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>"
-)
-```
-
-```{r setup}
-library(TeachingMaterials)
-```
 Written by J. N. Keating, 05/07/24
 
-#### Getting started
+### Learning Objectives
+
+**1. You should understand how fossil occurrence datasets are structured and how users contribute new data.**
+
+**2. You should be able to download, manipulate, clean and plot occurrence data from the Palaeobiology Database (PBDB).**
+
+**3. You should be able to analyse occurrence data using R and make inferences about diversity of through time.**
+
+******
+
+#### Example: Cephalopod diversity through time
 
 First, lets install the required packages. 
 ```{r, message=FALSE}
@@ -55,8 +52,6 @@ library("fossilbrush")
 library("palaeoverse")
 library("divDyn")
 ```
-
-#### Extracting, manipulating and plotting data from the PBDB
 
 We can extract a dataset from the PBDB using the 'paleobioDB' package
 ```{r, message=FALSE}
@@ -216,5 +211,20 @@ lines(dd_nat$bin_midpoint, dd_nat$divSIB, col="#F55D3E", lwd=2)
 legend("topleft", legend=c("Ammonitida", "Nautilida"), col=c("#0e826f", "#F55D3E"), lwd=c(2,2), bg="white")
 ```
 
-## Exercises
-* Choose a taxonomic group and appropriate time interval. Extract the data from the PBDB, clean it and plot the Sampled-In-Bin diversity using equal time bins of 5 million years.  
+******
+
+### Exercise 1
+**Choose a taxonomic group and appropriate time interval. Extract the data from the PBDB, clean it and plot the Sampled-In-Bin diversity using equal time bins of 5 million years.**  
+
+### Exercise 2
+**Analyse the diversity through time of the simulated dataset (see below). Assume the data has already been cleaned. How does the diversity of CladeA change through the Permian and Triassic?** 
+
+
+```{r, message=FALSE}
+if (!require(TeachingMaterials)){
+  install_github("evo-palaeo/TeachingMaterials") 
+}
+library(TeachingMaterials)
+data(sim_occ)
+head(sim_occ) #simulated occurrence data 
+```
