@@ -1,2 +1,8 @@
 load("/Users/josephkeating/Dropbox/Work/R_scripts/treesurgeon/data/dino_data.RData")
 dino_data
+load("/Users/josephkeating/Dropbox/Work/R_scripts/TeachingMaterials/data/theropod_ages.Rdata")
+load("/Users/josephkeating/Dropbox/Work/R_scripts/TeachingMaterials/data/theropod_tree.Rdata")
+load("/Users/josephkeating/Dropbox/Work/R_scripts/TeachingMaterials/data/theropod_ages.Rdata")
+theropod_ages
+load("/Users/josephkeating/Dropbox/Work/R_scripts/TeachingMaterials/data/theropod_tree.Rdata")
+theropod_tree

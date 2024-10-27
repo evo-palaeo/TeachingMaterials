@@ -61,3 +61,27 @@
 #' data(theropod_ages)
 #' head(theropod_ages)
 "theropod_ages"
+
+
+
+#' Theropod morphological data
+#'
+#' The morphological taxon-by-character matrix for theropod dinosaurs from Xu et al. 2023.
+#'
+#' @docType data
+#'
+#' @usage data(theropod_data)
+#'
+#' @format list
+#'
+#' @keywords datasets
+#'
+#' @references Xu, L., Wang, M., Chen, R., Dong, L., Lin, M., Xu, X., Tang, J., You, H., Zhou, G., Wang, L. and He, W., 2023. A new avialan theropod from an emerging Jurassic terrestrial fauna. Nature, 621(7978), pp.336-343.
+#' 
+#' @examples
+#' data(theropod_data)
+#' head(theropod_data)
+"theropod_data"
+
+
+
