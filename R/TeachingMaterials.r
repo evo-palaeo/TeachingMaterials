@@ -20,7 +20,6 @@
 #' @examples
 #' data(sim_occ)
 #' head(sim_occ)
-#' @export
 "sim_occ"
 
 
@@ -41,7 +40,6 @@
 #' @examples
 #' data(theropod_tree)
 #' plot(theropod_tree, cex = 0.5)
-#' @export
 "theropod_tree"
 
 
@@ -62,5 +60,4 @@
 #' @examples
 #' data(theropod_ages)
 #' head(theropod_ages)
-#' @export
 "theropod_ages"
