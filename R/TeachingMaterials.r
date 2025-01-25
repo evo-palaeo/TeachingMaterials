@@ -124,4 +124,42 @@
 "covid_tree"
 
 
+#' H5N1 NA tree
+#'
+#' Subsampled H5N1 NA tree from Nguyen et al 2024
+#'
+#' @docType data
+#'
+#' @usage data(H5N1_tree)
+#'
+#' @format phylo
+#'
+#' @keywords datasets
+#'
+#' @references Nguyen TQ, Hutter C, Markin A, Thomas MN, Lantz K, Killian ML, Janzen GM, Vijendran S, Wagle S, Inderski B, Magstadt DR. Emergence and interstate spread of highly pathogenic avian influenza A (H5N1) in dairy cattle. bioRxiv. 2024:2024-05.
+#' 
+#' @examples
+#' data(H5N1_tree)
+#' plot(H5N1_tree, cex = 0.3)
+"H5N1_tree"
 
+
+
+#' H5N1 host data
+#'
+#' H5N1 host data from Nguyen et al 2024
+#'
+#' @docType data
+#'
+#' @usage data(H5N1_host)
+#'
+#' @format factor
+#'
+#' @keywords datasets
+#'
+#' @references Nguyen TQ, Hutter C, Markin A, Thomas MN, Lantz K, Killian ML, Janzen GM, Vijendran S, Wagle S, Inderski B, Magstadt DR. Emergence and interstate spread of highly pathogenic avian influenza A (H5N1) in dairy cattle. bioRxiv. 2024:2024-05.
+#' 
+#' @examples
+#' data(H5N1_host)
+#' head(H5N1_host)
+"H5N1_host"
