@@ -1,5 +1,5 @@
 ###################### TeachingMaterials ###################### 
-################### J. N. Keating, 10/07/24 ###################
+################### J. N. Keating, 25/01/25 ###################
 
 ################### Data ###################
 
@@ -82,6 +82,46 @@
 #' data(theropod_data)
 #' head(theropod_data)
 "theropod_data"
+
+
+#' Covid host data
+#'
+#' Data on Covid hosts from Yang et al 2023
+#'
+#' @docType data
+#'
+#' @usage data(covid_host)
+#'
+#' @format factor
+#'
+#' @keywords datasets
+#'
+#' @references Yang J, Skaro M, Chen J, Zhan D, Lyu L, Gay S, Kandeil A, Ali MA, Kayali G, Stoianova K, Ji P. The species coalescent indicates possible bat and pangolin origins of the COVID-19 pandemic. Scientific Reports. 2023 Apr 5;13(1):5571.
+#' 
+#' @examples
+#' data(covid_host)
+#' head(covid_host)
+"covid_host"
+
+
+#' Covid species tree
+#'
+#' Subsampled covid species tree from Yang et al 2023
+#'
+#' @docType data
+#'
+#' @usage data(covid_tree)
+#'
+#' @format phylo
+#'
+#' @keywords datasets
+#'
+#' @references Yang J, Skaro M, Chen J, Zhan D, Lyu L, Gay S, Kandeil A, Ali MA, Kayali G, Stoianova K, Ji P. The species coalescent indicates possible bat and pangolin origins of the COVID-19 pandemic. Scientific Reports. 2023 Apr 5;13(1):5571.
+#' 
+#' @examples
+#' data(covid_tree)
+#' plot(covid_tree, cex = 0.5)
+"covid_tree"
 
 
 

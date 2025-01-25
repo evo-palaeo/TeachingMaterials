@@ -6,3 +6,5 @@ load("/Users/josephkeating/Dropbox/Work/R_scripts/TeachingMaterials/data/theropo
 theropod_ages
 load("/Users/josephkeating/Dropbox/Work/R_scripts/TeachingMaterials/data/theropod_tree.Rdata")
 theropod_tree
+load("/Users/josephkeating/Dropbox/Work/R_scripts/TeachingMaterials/data/theropod_data.Rdata")
+head(theropod_data)
