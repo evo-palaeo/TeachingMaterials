@@ -1,11 +1,11 @@
-###################### TeachingMaterials ###################### 
+###################### TeachingMaterials ######################
 ################### J. N. Keating, 25/01/25 ###################
 
 ################### Data ###################
 
 #' Simulated occurrence dataset
 #'
-#' A simulated dataset of fossil occurrences analagous to data downloaded from the PBDB. 
+#' A simulated dataset of fossil occurrences analagous to data downloaded from the PBDB.
 #'
 #' @docType data
 #'
@@ -16,14 +16,14 @@
 #' @keywords datasets
 #'
 #' @references Kocsis, Ádám T., Carl J. Reddin, John Alroy, and Wolfgang Kiessling. "The R package divDyn for quantifying diversity dynamics using fossil sampling data." Methods in Ecology and Evolution 10, no. 5 (2019): 735-743.
-#'  
+#'
 #' @examples
 #' data(sim_occ)
 #' head(sim_occ)
 "sim_occ"
 
 
-#' Theropod phylogenetic tree 
+#' Theropod phylogenetic tree
 #'
 #' A Maximum Clade Credibility tree of theropods modified from Xu et al. 2023.
 #'
@@ -36,14 +36,14 @@
 #' @keywords datasets
 #'
 #' @references Xu, L., Wang, M., Chen, R., Dong, L., Lin, M., Xu, X., Tang, J., You, H., Zhou, G., Wang, L. and He, W., 2023. A new avialan theropod from an emerging Jurassic terrestrial fauna. Nature, 621(7978), pp.336-343.
-#' 
+#'
 #' @examples
 #' data(theropod_tree)
 #' plot(theropod_tree, cex = 0.5)
 "theropod_tree"
 
 
-#' Theropod stratigraphic data 
+#' Theropod stratigraphic data
 #'
 #' The First Apperance Datum and Last Appearance Datum for theropod dinosaurs from Xu et al. 2023.
 #'
@@ -56,12 +56,11 @@
 #' @keywords datasets
 #'
 #' @references Xu, L., Wang, M., Chen, R., Dong, L., Lin, M., Xu, X., Tang, J., You, H., Zhou, G., Wang, L. and He, W., 2023. A new avialan theropod from an emerging Jurassic terrestrial fauna. Nature, 621(7978), pp.336-343.
-#' 
+#'
 #' @examples
 #' data(theropod_ages)
 #' head(theropod_ages)
 "theropod_ages"
-
 
 
 #' Theropod morphological data
@@ -77,51 +76,71 @@
 #' @keywords datasets
 #'
 #' @references Xu, L., Wang, M., Chen, R., Dong, L., Lin, M., Xu, X., Tang, J., You, H., Zhou, G., Wang, L. and He, W., 2023. A new avialan theropod from an emerging Jurassic terrestrial fauna. Nature, 621(7978), pp.336-343.
-#' 
+#'
 #' @examples
 #' data(theropod_data)
 #' head(theropod_data)
 "theropod_data"
 
 
-#' Covid host data
+
+#' hCoV19 alignment
 #'
-#' Data on Covid hosts from Yang et al 2023
+#' Aligned hCoV19 data from Yang et al 2023
 #'
 #' @docType data
 #'
-#' @usage data(covid_host)
+#' @usage data(hCoV19_alignment)
+#'
+#' @format DNAbin
+#'
+#' @keywords datasets
+#'
+#' @references Yang J, Skaro M, Chen J, Zhan D, Lyu L, Gay S, Kandeil A, Ali MA, Kayali G, Stoianova K, Ji P. The species coalescent indicates possible bat and pangolin origins of the COVID-19 pandemic. Scientific Reports. 2023 Apr 5;13(1):5571.
+#'
+#' @examples
+#' data(hCoV19_alignment)
+"hCoV19_alignment"
+
+
+#' hCoV19 host data
+#'
+#' Data on "hCoV19 hosts from Yang et al 2023
+#'
+#' @docType data
+#'
+#' @usage data(hCoV19_hosts)
 #'
 #' @format factor
 #'
 #' @keywords datasets
 #'
 #' @references Yang J, Skaro M, Chen J, Zhan D, Lyu L, Gay S, Kandeil A, Ali MA, Kayali G, Stoianova K, Ji P. The species coalescent indicates possible bat and pangolin origins of the COVID-19 pandemic. Scientific Reports. 2023 Apr 5;13(1):5571.
-#' 
+#'
 #' @examples
-#' data(covid_host)
-#' head(covid_host)
-"covid_host"
+#' data(hCoV19_hosts)
+#' head(hCoV19_hosts)
+"hCoV19_hosts"
 
 
-#' Covid species tree
+#' hCoV19 species tree
 #'
 #' Subsampled covid species tree from Yang et al 2023
 #'
 #' @docType data
 #'
-#' @usage data(covid_tree)
+#' @usage data(hCoV19_tree)
 #'
 #' @format phylo
 #'
 #' @keywords datasets
 #'
 #' @references Yang J, Skaro M, Chen J, Zhan D, Lyu L, Gay S, Kandeil A, Ali MA, Kayali G, Stoianova K, Ji P. The species coalescent indicates possible bat and pangolin origins of the COVID-19 pandemic. Scientific Reports. 2023 Apr 5;13(1):5571.
-#' 
+#'
 #' @examples
-#' data(covid_tree)
-#' plot(covid_tree, cex = 0.5)
-"covid_tree"
+#' data(hCoV19_tree)
+#' plot(hCoV19_tree, cex = 0.5)
+"hCoV19_tree"
 
 
 #' H5N1 NA tree
@@ -137,12 +156,11 @@
 #' @keywords datasets
 #'
 #' @references Nguyen TQ, Hutter C, Markin A, Thomas MN, Lantz K, Killian ML, Janzen GM, Vijendran S, Wagle S, Inderski B, Magstadt DR. Emergence and interstate spread of highly pathogenic avian influenza A (H5N1) in dairy cattle. bioRxiv. 2024:2024-05.
-#' 
+#'
 #' @examples
 #' data(H5N1_tree)
 #' plot(H5N1_tree, cex = 0.3)
 "H5N1_tree"
-
 
 
 #' H5N1 host data
@@ -158,7 +176,7 @@
 #' @keywords datasets
 #'
 #' @references Nguyen TQ, Hutter C, Markin A, Thomas MN, Lantz K, Killian ML, Janzen GM, Vijendran S, Wagle S, Inderski B, Magstadt DR. Emergence and interstate spread of highly pathogenic avian influenza A (H5N1) in dairy cattle. bioRxiv. 2024:2024-05.
-#' 
+#'
 #' @examples
 #' data(H5N1_host)
 #' head(H5N1_host)
